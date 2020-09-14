@@ -1,0 +1,24 @@
+spring.application.name: astra-demo
+
+server.port: 8081
+
+management.server.port: 8082
+
+Kafka config props:
+  spring.kafka.bootstrap-servers=127.0.0.1:2181
+Consumer Deserialization:
+  spring.kafka.consumer.key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  spring.kafka.consumer.value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  spring.kafka.consumer.group-id: astraid
+  spring.kafka.consumer.enable-auto-commit: false
+  spring.kafka.listener.missing-topics-fatal: false
+ 
+astra.connect.properties:
+  userName: astrauser
+  password: astrapassword
+  keySpace: astrademo
+  secureConnectionBundlePath: /Users/saravananchinnachamy/stargate/secure-connect-astrademo.zip
+  dbId: 05741e32-ef2b-4a08-a92c-1a42c88f3359
+  region: us-east1
+  tableName: iot_vehicle_data
+  
