@@ -16,8 +16,8 @@ This project demostrates the how to ingest data from Kafka to Astra using **Star
 - Create Astra DB with stargate enabled.
 
 ## Project:1 ->  Kafka Consumer
-- Subscribe to the topic created above from spring boot Kafka Listerner
-- As the messages arrives in the topic, the listener process them and ingests them into Astra db using Stargate Schema less Document API. 
+- Subscribe to the topic created above using spring boot Kafka Listerner. The listener will listen on the topic for the kafka messages
+- As the messages arrive in the topic, the listener process them and ingests them into Astra db using Stargate Schema less Document API. 
 - Verify the documents are written to Astra DB
 
 ## Project:2 ->  Rest Template
