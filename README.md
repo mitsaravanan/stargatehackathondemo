@@ -22,10 +22,10 @@ This project demostrates the how to ingest data from Kafka to Astra using **Star
 
 ## Project:2 -> (# stargateapidemo) -> Rest Template
 - Validate variuos Document API using Rest Template. Some of the use cases are as follows.
- - Create a deep nested JSON document with multiple levels
- - Access the entire document
- - Access the document at various levels 
- - Search the document with variuos condtions like **gt, lt,  eq**
+  - Create a deep nested JSON document with multiple levels
+  - Access the entire document
+  - Access the document at various levels 
+  - Search the document with variuos condtions like **gt, lt,  eq**
  
  ## Observations\Comments
  - Need the ability to process batch JSON documents like DSBULK.
